@@ -1,0 +1,15 @@
+import java.util.Calendar;
+
+public class calendar_project {
+    public static void main(String[] args) {
+        //CREATING AN OBJECT OF CALENDAR
+       Calendar c= Calendar.getInstance();
+       System.out.println(c.getTime());
+        System.out.println("The Current Year is="+c.get(Calendar.YEAR));
+        System.out.println("The Current Date is="+c.get(Calendar.DATE));
+        System.out.println("The Current Hour is="+c.get(Calendar.HOUR));
+        System.out.println("The Current Minute is="+c.get(Calendar.MINUTE));
+        System.out.println("The Current Second is="+c.get(Calendar.SECOND));
+        System.out.println("The Current MilliSecond is="+c.get(Calendar.MILLISECOND));
+    }
+}
